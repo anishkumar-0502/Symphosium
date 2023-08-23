@@ -1,12 +1,13 @@
 .event-details {
-    background-color: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
+    color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
   
   .event-info {
     border-bottom: 1px solid #ddd;
+    color: white;
     padding-bottom: 15px;
     margin-bottom: 15px;
   }
@@ -31,7 +32,7 @@
   .event-date-time,
   .event-venue {
     font-size: 14px;
-    color: #666;
+    color: white;
   }
   
   .event-description {
@@ -55,7 +56,7 @@
     margin-left: 20px;
     padding-left: 10px;
     font-size: 14px;
-    color: #666;
+    color: white;
   }
   .event-form .cta-btn {
     display: inline-block;
@@ -74,7 +75,7 @@
   }
   
   .event-form .cta-btn:hover {
-    background-color: #151515;
+    background-color: #f16431;
     color: white;
   }
   
@@ -84,7 +85,7 @@
   
   @media (hover: hover) {
     .event-form .cta-btn:hover {
-        background-color: #151515;
+        background-color: #f05f33;
         color: white;
       }
   }
