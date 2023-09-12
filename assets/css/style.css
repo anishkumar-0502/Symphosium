@@ -14,9 +14,18 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+@font-face {
+  font-family: CelestraHeroFont;
+  src: url("../Glitchinside.otf");
+}
+*{
+  font-family: CelestraHeroFont;;
+
+}
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: CelestraHeroFont;
   color: #444444;
   background-color: #151515;
 }
@@ -27,7 +36,7 @@ a {
 }
 
 a:hover {
-  color: #ffd584;
+  color: #ffc584;
   text-decoration: none;
 }
 
@@ -37,7 +46,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -50,7 +58,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ffc451;
+  background: browen;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -130,6 +138,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
+    
 }
 
 #header.header-scrolled,
@@ -148,7 +157,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #6d6969;
 }
 
 #header .logo a span {
@@ -594,7 +603,6 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
   color: #ffc451;
 }
 
