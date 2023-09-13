@@ -85,7 +85,7 @@
   
   @media (hover: hover) {
     .event-form .cta-btn:hover {
-        background-color: #f05f33;
+        background-color: black;
         color: white;
       }
   }
