@@ -96,6 +96,7 @@ h6 {
   z-index: 9999;
   overflow: hidden;
   background: #151515;
+
 }
 
 #preloader:before {
@@ -122,6 +123,35 @@ h6 {
   }
 }
 
+
+.pre{
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  box-shadow: #151515;
+  margin-left: 18.5cm;
+  margin-top: 6.5cm;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  animation: blink 1s steps(1, end) infinite;
+
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -392,7 +422,7 @@ h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-
+  text-align: center;
   top: 55px;
   right: 1px;
   bottom: 15px;
@@ -417,7 +447,7 @@ h6 {
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
   color: #151515;
-  background-color: #ffc451;
+  background-color: #ffc5516d;
 }
 
 .navbar-mobile .getstarted,
@@ -1701,4 +1731,3 @@ section {
   opacity: 5; /* Initially set opacity to 0 */
   animation: fade-in 1s ease-in-out forwards; /* Apply the animation */
 }
-
